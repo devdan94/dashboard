@@ -28,8 +28,6 @@ header {
 
 /* profile picture */
 
-.dp {}
-
 .dp img {
     width: 7em;
     border-radius: 50em;
@@ -88,14 +86,6 @@ nav p {
 
 
 /* settings */
-
-.set {
-    background: #91FFA7;
-    width: .7em;
-    height: .7em;
-    border-radius: .7em;
-    margin: 0 0 -1em 5em;
-}
 
 .settings {
     text-align: center;
