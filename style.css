@@ -280,4 +280,8 @@ main a:hover {
 input[type="text"] {
     outline: none;
     padding: .5em 4em;
+    background: #12131A;
+    border: solid .1em #1E1F2A;
+    color: #83859e;
+    margin: 0 0 0 40em;
 }
