@@ -19,7 +19,7 @@
 ======================================= */
 
 header {
-    background: #9A00FF;
+    background: #171721;
     display: flex;
     align-items: center;
     padding: 1em 0em 1em 8em;
@@ -105,8 +105,7 @@ nav p {
 
 .settings a:hover {
     transition: all ease-in-out 0.4s;
-    box-shadow: 0 3px 13px #00000044;
-    background: #BB53FF;
+    background: #1C1D2A;
     transform: rotate(10deg);
 }
 
@@ -135,8 +134,7 @@ nav p {
 
 .calender a:hover {
     transition: all ease-in-out 0.4s;
-    box-shadow: 0 3px 13px #00000044;
-    background: #BB53FF;
+    background: #1C1D2A;
     transform: rotate(10deg);
 }
 
@@ -164,8 +162,7 @@ nav p {
 }
 
 .progress a:hover {
-    box-shadow: 0 3px 13px #00000044;
-    background: #BB53FF;
+    background: #1C1D2A;
     transform: rotate(10deg);
     transition: all ease-in-out 0.4s;
 }
@@ -195,8 +192,7 @@ nav p {
 }
 
 .notification a:hover {
-    box-shadow: 0 3px 13px #00000044;
-    background: #BB53FF;
+    background: #1C1D2A;
     transform: rotate(10deg);
 }
 
@@ -210,7 +206,7 @@ nav p {
 
 main {
     padding: 2em 0;
-    background: rgb(226, 226, 226);
+    background: #0B0B11;
 }
 
 .sec-one {
@@ -226,11 +222,11 @@ main {
 }
 
 main svg path {
-    fill: #9A00FF;
+    fill: #757575;
 }
 
 main svg circle {
-    fill: #9A00FF;
+    fill: #757575;
 }
 
 main svg {
@@ -241,9 +237,14 @@ main a {
     transition: all ease-in-out 0.4s;
     margin: 2em;
     padding: 1em 3em 1em 3em;
-    background: white;
+    border: solid .1em #1E1F2A;
     display: flex;
     border-radius: .4em;
+}
+
+main a:hover {
+    box-shadow: 0 3px 13px #00000044;
+    background: #1E1F2A;
 }
 
 .image {
@@ -252,11 +253,11 @@ main a {
 
 .inscriptions h3 {
     text-transform: uppercase;
-    color: #8B8B8B;
+    color: #757575;
 }
 
 .inscriptions p {
-    color: #8B8B8B;
+    color: #757575;
     font-size: .65rem;
     font-weight: 600;
 }
