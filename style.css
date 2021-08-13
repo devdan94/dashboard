@@ -1,0 +1,292 @@
+/*=========================
+================== importing fonts========== */
+
+
+/*========================
+================== all elements =============
+===================================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'raleway';
+}
+
+
+/* =====================
+=============Header and Navigation===
+======================================= */
+
+header {
+    background: #9A00FF;
+    display: flex;
+    align-items: center;
+    padding: 1em 0em 1em 8em;
+}
+
+
+/* profile picture */
+
+.dp {}
+
+.dp img {
+    width: 7em;
+    border-radius: 50em;
+}
+
+
+/* name, department and school */
+
+.credentials {
+    margin: 0 0 0 1em;
+    color: white;
+}
+
+.credentials h2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: -.1rem;
+    font-weight: 700;
+}
+
+.credentials p {
+    font-size: 1rem;
+}
+
+#cp {
+    margin: 0 0 .4em 0;
+}
+
+.credentials span {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    margin: 7em 0;
+}
+
+
+/* navigations and links */
+
+nav {
+    margin: 0 0 0 5em;
+    display: flex;
+}
+
+nav svg {
+    width: 1.3em;
+    /* margin: 0 0 -.25em; */
+}
+
+nav p {
+    font-size: .8rem;
+    font-weight: 700;
+    color: white;
+    letter-spacing: .2em;
+    margin-top: .5em;
+}
+
+
+/* settings */
+
+.set {
+    background: #91FFA7;
+    width: .7em;
+    height: .7em;
+    border-radius: .7em;
+    margin: 0 0 -1em 5em;
+}
+
+.settings {
+    text-align: center;
+    margin: 0 2em;
+}
+
+.settings a {
+    transition: all ease-in-out 0.4s;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20em;
+    margin-left: .9em;
+}
+
+.settings a:hover {
+    transition: all ease-in-out 0.4s;
+    box-shadow: 0 3px 13px #00000044;
+    background: #BB53FF;
+    transform: rotate(10deg);
+}
+
+.settings p {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* calender */
+
+.calender {
+    margin: 0 2em;
+}
+
+.calender a {
+    transition: all ease-in-out 0.4s;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20em;
+    margin-left: 1.2em;
+}
+
+.calender a:hover {
+    transition: all ease-in-out 0.4s;
+    box-shadow: 0 3px 13px #00000044;
+    background: #BB53FF;
+    transform: rotate(10deg);
+}
+
+.calender p {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* progress */
+
+.progress {
+    margin: 0 2em;
+}
+
+.progress a {
+    transition: all ease-in-out 0.6s;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20em;
+    margin-left: 1.3em;
+}
+
+.progress a:hover {
+    box-shadow: 0 3px 13px #00000044;
+    background: #BB53FF;
+    transform: rotate(10deg);
+    transition: all ease-in-out 0.4s;
+}
+
+.progress p {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* notification */
+
+.notification {
+    text-align: center;
+    margin: 0 2em;
+}
+
+.notification a {
+    transition: all ease-in-out 0.4s;
+    width: 3em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20em;
+    margin-left: 2.3em;
+}
+
+.notification a:hover {
+    box-shadow: 0 3px 13px #00000044;
+    background: #BB53FF;
+    transform: rotate(10deg);
+}
+
+.notification p {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* ================ main dashboard =================*/
+
+main {
+    padding: 2em 0;
+    background: rgb(226, 226, 226);
+}
+
+.sec-one {
+    display: flex;
+}
+
+.sec-two {
+    display: flex;
+}
+
+.sec-three {
+    display: flex;
+}
+
+main svg path {
+    fill: #9A00FF;
+}
+
+main svg circle {
+    fill: #9A00FF;
+}
+
+main svg {
+    width: 2em;
+}
+
+main a {
+    transition: all ease-in-out 0.4s;
+    margin: 2em;
+    padding: 1em 3em 1em 3em;
+    background: white;
+    display: flex;
+    border-radius: .4em;
+}
+
+.image {
+    margin: 0 .7em 0 -2em;
+}
+
+.inscriptions h3 {
+    text-transform: uppercase;
+    color: #8B8B8B;
+}
+
+.inscriptions p {
+    color: #8B8B8B;
+    font-size: .65rem;
+    font-weight: 600;
+}
+
+.sec-one a {
+    text-decoration: none;
+}
+
+.sec-two a {
+    text-decoration: none;
+}
+
+.sec-three a {
+    text-decoration: none;
+}
+
+
+/* search area */
+
+input[type="text"] {
+    outline: none;
+    padding: .5em 4em;
+}
